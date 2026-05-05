@@ -1,0 +1,31 @@
+# Maven / build output
+target/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# Runtime logs and local machine files
+users_log.txt
+reservations_log.txt
+*.log
+src/main/resources/application-local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
